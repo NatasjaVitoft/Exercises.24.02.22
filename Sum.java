@@ -8,7 +8,7 @@ public static void main(String[] args) {
   sum(a,b);
   String c = ("Hello world");
   upperCase(c);
-  System.out.println(hej(c));
+  System.out.println(testBoolean(c));
 }
 
 public static void sum(int first, int last) {
@@ -19,8 +19,8 @@ public static void upperCase(String upperString) {
   System.out.println(upperString.toUpperCase());
 }
 
-public static boolean hej(String hejj) {
-  char first = hejj.charAt(0);
+public static boolean testBoolean(String firstString) {
+  char first = firstString.charAt(0);
   if(Character.isUpperCase(first)) {
   return true;
   }
